@@ -1,0 +1,9 @@
+﻿sudoku.obj : error LNK2005: "void __cdecl PrintGrid(int (* const)[9])" (?PrintGrid@@YAXQEAY08H@Z) already defined in test.obj
+sudoku.obj : error LNK2005: "bool __cdecl findUnassignedLocation(int (* const)[9],int &,int &)" (?findUnassignedLocation@@YA_NQEAY08HAEAH1@Z) already defined in test.obj
+sudoku.obj : error LNK2005: "bool __cdecl isBoxValid(int (* const)[9],int,int,int)" (?isBoxValid@@YA_NQEAY08HHHH@Z) already defined in test.obj
+sudoku.obj : error LNK2005: "bool __cdecl isColValid(int (* const)[9],int,int)" (?isColValid@@YA_NQEAY08HHH@Z) already defined in test.obj
+sudoku.obj : error LNK2005: "bool __cdecl isRowValid(int (* const)[9],int,int)" (?isRowValid@@YA_NQEAY08HHH@Z) already defined in test.obj
+sudoku.obj : error LNK2005: "bool __cdecl isValid(int (* const)[9],int,int,int)" (?isValid@@YA_NQEAY08HHHH@Z) already defined in test.obj
+sudoku.obj : error LNK2005: "bool __cdecl solveSudoku(int (* const)[9])" (?solveSudoku@@YA_NQEAY08H@Z) already defined in test.obj
+sudoku.obj : error LNK2005: main already defined in test.obj
+D:\Tai lieu hoc tap\Nhap mon lap trinh\nhapmonlaptrinh\tictactoe\tictactoe\sudoku\x64\Debug\sudoku.exe : fatal error LNK1169: one or more multiply defined symbols found
